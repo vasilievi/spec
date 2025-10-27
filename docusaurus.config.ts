@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '1С:Специалист',
+  title: '1С Специалист',
   tagline: 'Подготовка к экзамену 1С:Специалист по платформе',
   favicon: 'img/favicon.ico',
 
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/vasilievi/spec/',
         },
         blog: false,
         theme: {
@@ -71,7 +71,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Курс подготовки',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
