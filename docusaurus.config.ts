@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -84,42 +84,34 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Примеры билетов',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Сборник задач',
+              href: 'https://v8.1c.ru/metod/books/106055.htm',
+            },
+          ],
+        }, 
+        {
+          title: 'Основа для решения задач',
+          items: [
+            {
+              label: 'Каркасная конфигурация',
+              href: 'https://static.1c.ru/rus/partners/training/files/new_carcass_8_3_25_1445.dt',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Ознакомиться перед экзаменом',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Требования к экзамену',
+              href: 'https://static.1c.ru/rus/partners/training/files/ATT83PL.rtf',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `${new Date().getFullYear()} | ПрофКейс | pcs.ru`,
     },
     prism: {
       theme: prismThemes.github,
