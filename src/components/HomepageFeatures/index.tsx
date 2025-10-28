@@ -11,33 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Поможет углубить знания и навыки',
-    Svg: require('@site/static/img/books.svg').default,
+    title: 'Углубление знания и навыки',
+    Svg: require('@site/static/img/checklist.svg').default,
     description: (
       <>
-        Чтобы сдать экзамен и получить сертификат, 
-        нужна подготовка. Она поможет систематизировать те знания, 
+        Подготовка к экзамену поможет систематизировать те знания, 
         которые уже есть, и найти пробелы.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Подтверждение высокого уровня компетенции',
+    Svg: require('@site/static/img/student.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Получение сертификата гарантирует, что специалист обладает не только теоретическими, 
+        но и практическими навыками работы с системой 1С. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Повышает профессиональную ценность',
+    Svg: require('@site/static/img/work.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Сертификат даёт преимущество среди остальных кандидатов на рынке труда,
+        открывает двери в крупные проекты, где можно реализовать свой потенциал и развиться профессионально.
       </>
     ),
   },

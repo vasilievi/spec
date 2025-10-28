@@ -2,46 +2,51 @@
 sidebar_position: 1
 ---
 
-# Об экзамене
+# О курсе
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Экзамен 1С:Специалист по платформе проверяет
+* понимание основных принципов проектирования конфигураций;
+* понимание технологических решений, заложенных в платформе "1С:Предприятие 8";
+* практические навыки конфигурирования и программирования.
 
-## Getting Started
+## Требование к слушателям
+* знаний основных объектов дерева конфигурации;
+* 1-2 года опыта решения задач оперативного, бухгалтерского учета;
+* понимание терминов предметной области, таких как: партия, себестоимость, обороты, счет, дебет, оклад и пр. 
 
-Get started by **creating a new site**.
+## Обучение
+![Учебный центрй №1](./img/uc1.png)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+* [Курс по подготовке к экзамену Павла Белоусова от Учебного центра №1](https://uc1.1c.ru/course/podgotovka-k-ekzamenu-1s-spetsialist-po-platforme/)
+* Самостоятельное решение задач из [сборника задач](https://v8.1c.ru/metod/books/106055.htm) на [каркасной конфигурации](https://static.1c.ru/rus/partners/training/files/new_carcass_8_3_25_1445.dt).
+* Чтение условий задачи;
+* Синтаксис-помощник и справка платформы;
+* Версия платформы и системные ошибки;
+* [Комьюнити-лицензия](https://v8.1c.ru/podderzhka-i-obuchenie/uchebnye-versii/?);
 
-### What you'll need
+## Формат экзамена
+* 4 задачи;
+* 5 часов.
+* решение задач на каркасной конфигурации.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Очная сдача экзамена
+* Учебный центр №1;
+* Можно брать печатную литература 1С;
+* Защите решения при необходимости;
+* Оценка сразу;
+* Можно задавать вопросы.
 
-## Generate a new site
+## Удаленная сдача
+* Разрешена у некоторых партнеров 1С;
+* Работа осуществляется в специальной оболочке;
+* Печатную литературу брать нельзя, встроена в оболочку;
+* Оценка выставляяется позднее, передается со списком ошибок;
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Темы задач на экзамене
+### Первоочередные задачи
+* оперативный учет;
+* бухгалтерский учет;
+* периодические расчеты;
+### Второстепенные задачи
+* бизнес-процессы (четкий алгоритм);
+* управляемые формы (главное, чтобы работало).
