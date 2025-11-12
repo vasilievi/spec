@@ -1,6 +1,6 @@
 {
   "name": "spec",
-  "version": "25.11.05",
+  "version": "25.11.12",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
