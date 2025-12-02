@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">Задачи оперативного учета | 1С Специалист</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://vasilievi.github.io/spec/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://vasilievi.github.io/spec/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://vasilievi.github.io/spec/docs/oper/05"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Задачи оперативного учета | 1С Специалист"><meta data-rh="true" name="description" content="Общие сведения"><meta data-rh="true" property="og:description" content="Общие сведения"><link data-rh="true" rel="icon" href="/spec/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://vasilievi.github.io/spec/docs/oper/05"><link data-rh="true" rel="alternate" href="https://vasilievi.github.io/spec/docs/oper/05" hreflang="ru"><link data-rh="true" rel="alternate" href="https://vasilievi.github.io/spec/docs/oper/05" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"1. Оперативный учет","item":"https://vasilievi.github.io/spec/docs/category/1-оперативный-учет"},{"@type":"ListItem","position":2,"name":"Задачи оперативного учета","item":"https://vasilievi.github.io/spec/docs/oper/05"}]}</script><link rel="stylesheet" href="/spec/assets/css/styles.8c1dd5bc.css">
-<script src="/spec/assets/js/runtime~main.f76306a9.js" defer="defer"></script>
+<script src="/spec/assets/js/runtime~main.e928f988.js" defer="defer"></script>
 <script src="/spec/assets/js/main.4416ac26.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -44,11 +44,11 @@
 <li class="">для количества точность - целое, если не указана в задаче;</li>
 <li class="">длина по умолчанию;</li>
 <li class="">на всякий случай ничего ставит не надо;</li>
-<li class="">для суммы точность 2.</li>
+<li class="">для суммы точность 2;</li>
 </ul>
 </li>
-<li class="">кол-во и сумма одно и тоже в разных еи</li>
-<li class="">колво штуки, сумма рубли</li>
+<li class="">кол-во и сумма - мера товара в разных единицах измерения;</li>
+<li class="">колво - штуки, сумма - рубли;</li>
 <li class="">измерения:<!-- -->
 <ul>
 <li class="">смотрим по отчёту как детализировано;</li>
@@ -56,15 +56,12 @@
 <li class="">у измерений обязательно запрет незаполненных значений.</li>
 </ul>
 </li>
-<li class="">последовательность измерений;</li>
+<li class="">последовательность измерений - составные индексы;
+<img decoding="async" loading="lazy" alt="index" src="/spec/assets/images/2025-12-03_01-01-56-4a05fe1dff52d417d13eb0e8d57e0dcf.png" width="930" height="560" class="img_ev3q"></li>
+<li class="">включение индексирования измерений - простые индексы;</li>
+<li class="">отбор в отчете - первое измерение, включение индексирования.</li>
 </ul>
 <ul>
-<li class="">последовательность создания измерений важна</li>
-<li class="">индексы платформа создаёт составные</li>
-<li class="">пользователь создаёт только простые</li>
-<li class="">индекс нужен для быстрого отбора</li>
-<li class="">склад первый ТК отбор по нему в отчёте</li>
-<li class="">индекс по тем измерениям, по которым отбор в отчете</li>
 <li class="">регистраторы накладные</li>
 <li class="">разрешить разделение итогов всегда в рн и рб</li>
 <li class="">документы только из условия, есть сорта ошибка</li>
