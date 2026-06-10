@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">Периодические расчёты (расчёт зарплаты) | 1С Специалист</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://vasilievi.github.io/spec/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://vasilievi.github.io/spec/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://vasilievi.github.io/spec/docs/raschet/01"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Периодические расчёты (расчёт зарплаты) | 1С Специалист"><meta data-rh="true" name="description" content="Тема посвящена регистрам расчёта и задачам начисления зарплаты."><meta data-rh="true" property="og:description" content="Тема посвящена регистрам расчёта и задачам начисления зарплаты."><link data-rh="true" rel="icon" href="/spec/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://vasilievi.github.io/spec/docs/raschet/01"><link data-rh="true" rel="alternate" href="https://vasilievi.github.io/spec/docs/raschet/01" hreflang="ru"><link data-rh="true" rel="alternate" href="https://vasilievi.github.io/spec/docs/raschet/01" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"3. Периодические расчеты","item":"https://vasilievi.github.io/spec/docs/category/3-периодические-расчеты"},{"@type":"ListItem","position":2,"name":"Периодические расчёты (расчёт зарплаты)","item":"https://vasilievi.github.io/spec/docs/raschet/01"}]}</script><link rel="stylesheet" href="/spec/assets/css/styles.8c1dd5bc.css">
-<script src="/spec/assets/js/runtime~main.0f50444c.js" defer="defer"></script>
+<script src="/spec/assets/js/runtime~main.d7052e73.js" defer="defer"></script>
 <script src="/spec/assets/js/main.644aaa36.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -42,7 +42,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="метод-отклонений">Метод отклонений<a href="#метод-отклонений" class="hash-link" aria-label="Прямая ссылка на Метод отклонений" title="Прямая ссылка на Метод отклонений" translate="no">​</a></h2>
 <p>Есть некоторый <strong>план</strong>.</p>
 <p>Предполагается, что сотрудник полностью работает весь месяц и получает полный оклад.</p>
-<p>Затем учитываются отклонения:</p>
+<p>Затем учитываются (отнимаются) отклонения:</p>
 <ul>
 <li class="">больничный;</li>
 <li class="">отпуск;</li>
@@ -58,7 +58,7 @@
 <li class="">больничный - Б и тп.</li>
 </ul>
 <h1>3. Виды времени</h1>
-<p>Количество часов или дней.</p>
+<p>Время - количество часов или дней.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="календарное-время">Календарное время<a href="#календарное-время" class="hash-link" aria-label="Прямая ссылка на Календарное время" title="Прямая ссылка на Календарное время" translate="no">​</a></h2>
 <p>Обычные календарные дни.</p>
 <p>Примеры:</p>
@@ -75,7 +75,7 @@
 <li class="">производственному календарю;</li>
 <li class="">графику работы.</li>
 </ul>
-<p>График может быть:</p>
+<p>Примеры графиков:</p>
 <ul>
 <li class="">пятидневка;</li>
 <li class="">сменный график;</li>
@@ -121,20 +121,15 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="примеры-базы">Примеры базы<a href="#примеры-базы" class="hash-link" aria-label="Прямая ссылка на Примеры базы" title="Прямая ссылка на Примеры базы" translate="no">​</a></h3>
 <ul>
 <li class="">оклад за прошлый месяц;</li>
-<li class="">фактически отработанное время;</li>
-<li class="">сумма начислений;</li>
-<li class="">время командировок.</li>
+<li class="">отработанные часы за текущи месяц;</li>
+<li class="">сумма всех начислений за год;</li>
+<li class="">время командировок за 3 месяцв.</li>
 </ul>
 <hr>
 <h1>5. Связь периодов</h1>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Период регистрации</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Когда зарегистрировали событие</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Период действия</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">За какой период выполняется расчёт</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Фактический период действия</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Что реально отработано после учёта отклонений</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Базовый период</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Из чего рассчитываются премии и другие начисления</span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Период регистрации</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Когда зарегистрировали событие</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Период действия</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">За какой период выполняется расчёт</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Фактический период действия</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Что реально отработано после учёта отклонений</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Базовый период</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Из чего рассчитываются премии и другие доп. начисления</span><br></span></code></pre></div></div>
 <hr>
 <h1>6. Основная формула расчётных задач</h1>
-<p>Большинство задач сводится к вопросу:</p>
-<blockquote>
-<p>Сколько определённого времени приходится на определённый период?</p>
-</blockquote>
-<p>Обычно считается:</p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Оклад / Норма времени × Фактически отработанное время</span><br></span></code></pre></div></div>
 <p>где:</p>
 <ul>
