@@ -9,6 +9,11 @@ const config: Config = {
   tagline: 'Подготовка к экзамену 1С:Специалист по платформе',
   favicon: 'img/favicon.ico',
 
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  },
+
   // Set the production url of your site here
   url: 'https://vasilievi.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
