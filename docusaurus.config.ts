@@ -69,7 +69,7 @@ const config: Config = {
           label: 'Курс подготовки',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/vasilievi/spec',
           label: 'GitHub',
           position: 'right',
         },
