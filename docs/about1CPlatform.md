@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # О платформе 1С
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r39ONSa7Pig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Что такое платформа 1С
 * основа для разработки и запуска любых бизнес-приложений;
 * фреймворк, повышение уровня абстракции, работа с прикладными объектами;

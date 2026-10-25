@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # О курсе
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mss_rynpxR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Экзамен 1С:Специалист по платформе проверяет
 * понимание основных принципов проектирования конфигураций;
 * понимание технологических решений, заложенных в платформе "1С:Предприятие 8";
